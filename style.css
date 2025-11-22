@@ -9,6 +9,7 @@ body {
   height: 100vh;      
   color: white;
   font-family: Arial, sans-serif;
+  text-align: center;
   
 }
 .content {
@@ -18,14 +19,6 @@ body {
   text-align: center;
   margin-top: 5%;
   font-size: 2em;
-}
-.phar1 {
-  position: relative;   
-  z-index: 2;           
-  color: white;         
-  text-align: center;
-  margin-top: 5%;
-  font-size: 1em;
 }
 .phar1 {
   position: relative;   
@@ -54,6 +47,7 @@ body {
   border-radius: 8px;      
   cursor: pointer;        
   transition: all 0.2s ease; 
+  text-align: center;
 }
 
 .butt:hover {
@@ -70,6 +64,8 @@ body {
     border-radius: 12px;
     padding: 20px;
     padding: 10px;
+    text-align: center;
+	
 }
 
 
@@ -119,4 +115,5 @@ body {
   background-color: lightblue;
   transform: translateY(-2px);  
 }
+
 
