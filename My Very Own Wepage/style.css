@@ -1,0 +1,48 @@
+body {
+  
+  background-image: url('bg1.gif');
+  background-size: cover;       
+  background-repeat: no-repeat; 
+  background-position: center;  
+  background-attachment: fixed; 
+  margin: 0;                    
+  height: 100vh;      
+  color: white;
+  font-family: Arial, sans-serif;
+  
+}
+.content {
+  position: relative;   
+  z-index: 2;           
+  color: white;         
+  text-align: center;
+  margin-top: 5%;
+  font-size: 2em
+}
+.phar1 {
+  position: relative;   
+  z-index: 2;           
+  color: white;         
+  text-align: center;
+  margin-top: 5%;
+  font-size: 1em
+}
+.butt {
+  background-color: transparent;
+  border: 2px solid lightblue;
+  color: white;
+  padding: 12px 24px;   
+  display: inline-block; 
+  width: auto;     
+  font-size: 1em;       
+  border-radius: 8px;      
+  cursor: pointer;        
+  transition: all 0.2s ease; 
+}
+
+.butt:hover {
+  background-color: lightblue;
+  transform: translateY(-2px); 
+}
+
+
