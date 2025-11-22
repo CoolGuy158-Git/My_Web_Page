@@ -17,7 +17,7 @@ body {
   color: white;         
   text-align: center;
   margin-top: 5%;
-  font-size: 2em
+  font-size: 2em;
 }
 .phar1 {
   position: relative;   
@@ -25,7 +25,23 @@ body {
   color: white;         
   text-align: center;
   margin-top: 5%;
-  font-size: 1em
+  font-size: 1em;
+}
+.phar1 {
+  position: relative;   
+  z-index: 2;           
+  color: white;         
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1em;
+}
+.more {
+  position: relative;   
+  z-index: 2;           
+  color: white;         
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1em;
 }
 .butt {
   background-color: transparent;
@@ -42,7 +58,65 @@ body {
 
 .butt:hover {
   background-color: lightblue;
-  transform: translateY(-2px); 
+  transform: translateY(-2px);  
+}
+.MyProj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;  
+    border: 1px solid blue;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    padding: 10px;
 }
 
+
+.MyProj .butt1{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: lightblue;
+	background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    padding: 10px;
+}
+.MyProj .butt1:hover {
+  background-color: lightblue;
+  transform: translateY(-2px);  
+}
+.MyProj .butt2{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: lightblue;
+	background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    padding: 10px;
+}
+.MyProj .butt2:hover {
+  background-color: lightblue;
+  transform: translateY(-2px);  
+}
+
+.MyProj .butt3{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: lightblue;
+	background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    padding: 10px;
+}
+.MyProj .butt3:hover {
+  background-color: lightblue;
+  transform: translateY(-2px);  
+}
 
